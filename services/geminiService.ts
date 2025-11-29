@@ -1,7 +1,7 @@
 import { GoogleGenAI, Modality, Type } from "@google/genai";
 import { AnalysisResponse } from "../types";
 
-const apiKey = import.meta.env.VITE_GEMINI_API_KEY || '';
+const apiKey = 'AIzaSyD57vPN0Stn5l8usl7gc6FJeFIYS24Q-qg';
 const ai = new GoogleGenAI({ apiKey });
 
 /**
